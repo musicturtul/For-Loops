@@ -10,6 +10,8 @@
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	for (int i = 1; i <=10; i++) {
+		cout << "This is number " << i << endl;
+	}
 	return 0;
 }
